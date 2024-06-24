@@ -9,6 +9,7 @@ import htm from 'https://esm.sh/htm@3.1.1';
 const html = htm.bind(React.createElement);
 import Skeleton from 'https://esm.sh/react-loading-skeleton@3.4.0?dev'
 
+// Consider making this a utility function, so I can sorta import this like with Webpack
 // In ESM (ECMAScript Modules), there isn't a built-in way to import CSS files directly
 // like you would in a bundler environment such as Webpack or Parcel.
 const link = document.createElement('link');
